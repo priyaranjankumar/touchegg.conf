@@ -8,17 +8,17 @@ To get started with Touchegg, follow these steps:
 
 Install Touchegg: You can either download Touchegg from the official repository or install it using a package manager.
 
-```bash
-$ sudo add-apt-repository ppa:touchegg/stable
-$ sudo apt update
-$ sudo apt install touchegg
+```
+  sudo add-apt-repository ppa:touchegg/stable
+  sudo apt update
+  sudo apt install touchegg
 ```
 
 Enable and Start: Enable and start the Touchegg service if it's not done automatically during installation.
 
-```bash
-$ sudo systemctl start touchegg
-$ sudo systemctl enable touchegg
+```
+  sudo systemctl start touchegg
+  sudo systemctl enable touchegg
 ```
 
 Configure Gestures: Once Touchegg is installed, you need to configure the gestures according to your preferences.
@@ -27,10 +27,10 @@ Configure Gestures: Once Touchegg is installed, you need to configure the gestur
 
 Touchegg configuration involves defining what actions should be triggered by specific multi-touch gestures.
 
-```bash
+``` 
 git clone https://github.com/priyaranjankumar/touchegg.conf.git
 cd touchegg.conf
-cp touchegg.conf ~/.config/touchegg/touchegg.conf
+cp touchegg.conf ~/.config/touchegg/
 ```
 
 ## Usage
